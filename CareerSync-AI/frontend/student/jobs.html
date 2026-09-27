@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Find Jobs | CareerSync AI</title><link rel="stylesheet" href="../css/style.css"></head><body class="app-page">
+<aside class="sidebar">
+  <a class="brand side-brand" href="../index.html"><span class="brand-mark">C</span><span>CareerSync <b>AI</b></span></a>
+  <div class="side-label">WORKSPACE</div>
+  <nav class="side-nav">
+    <a class="active" href="dashboard.html">⌂ <span>Dashboard</span></a>
+    <a href="profile.html">◉ <span>My Profile</span></a>
+    <a href="resume.html">✦ <span>Resume Analyzer</span></a>
+    <a href="jobs.html">⌕ <span>Find Jobs</span></a>
+    <a href="applications.html">▣ <span>Applications</span></a>
+    <a href="dsa.html">⌘ <span>DSA Practice</span></a>
+    <a href="roadmap.html">↗ <span>Learning Roadmap</span></a>
+  </nav>
+  <div class="side-bottom"><a href="../index.html">⚙ <span>Settings</span></a><a href="../login.html">↪ <span>Logout</span></a></div>
+</aside>
+<main class="app-main"><header class="app-header"><div><span class="eyebrow">STUDENT WORKSPACE</span><h1>Find Jobs</h1></div><div class="header-actions"><button class="icon-btn">⌕</button><span class="notification">3</span><div class="user-chip"><span class="avatar">AK</span><div><b>Aashi Kumari</b><small>B.Tech CSE</small></div></div></div></header>
+<div class="search-row"><div class="search-box">⌕<input id="jobSearch" oninput="renderJobs('jobsList')" placeholder="Search jobs, skills or companies..."></div><select id="jobFilter" onchange="renderJobs('jobsList')"><option value="all">All roles</option><option value="AI">AI / ML</option><option value="Software">Software</option><option value="Data">Data</option></select><button class="btn btn-outline">☷ Filters</button></div><div class="jobs-heading"><div><h2>Recommended for you</h2><p>Ranked by skill compatibility</p></div><span class="pill">6 opportunities</span></div><div id="jobsList" class="jobs-grid"></div>
+</main><script src="../js/main.js"></script></body></html>

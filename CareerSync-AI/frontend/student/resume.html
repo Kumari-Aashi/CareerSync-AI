@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>AI Resume Analyzer | CareerSync AI</title><link rel="stylesheet" href="../css/style.css"></head><body class="app-page">
+<aside class="sidebar">
+  <a class="brand side-brand" href="../index.html"><span class="brand-mark">C</span><span>CareerSync <b>AI</b></span></a>
+  <div class="side-label">WORKSPACE</div>
+  <nav class="side-nav">
+    <a class="active" href="dashboard.html">⌂ <span>Dashboard</span></a>
+    <a href="profile.html">◉ <span>My Profile</span></a>
+    <a href="resume.html">✦ <span>Resume Analyzer</span></a>
+    <a href="jobs.html">⌕ <span>Find Jobs</span></a>
+    <a href="applications.html">▣ <span>Applications</span></a>
+    <a href="dsa.html">⌘ <span>DSA Practice</span></a>
+    <a href="roadmap.html">↗ <span>Learning Roadmap</span></a>
+  </nav>
+  <div class="side-bottom"><a href="../index.html">⚙ <span>Settings</span></a><a href="../login.html">↪ <span>Logout</span></a></div>
+</aside>
+<main class="app-main"><header class="app-header"><div><span class="eyebrow">STUDENT WORKSPACE</span><h1>AI Resume Analyzer</h1></div><div class="header-actions"><button class="icon-btn">⌕</button><span class="notification">3</span><div class="user-chip"><span class="avatar">AK</span><div><b>Aashi Kumari</b><small>B.Tech CSE</small></div></div></div></header>
+<section class="upload-panel"><div class="upload-icon">↑</div><h2>Analyze your resume</h2><p>Upload a PDF resume and CareerSync will extract skills, identify gaps and compare you with target roles.</p><label class="upload-box"><input id="resumeFile" type="file" accept=".pdf" onchange="showFile(this)"><span id="fileText">Drop your PDF here or <u>browse</u></span><small>PDF · Max 5 MB</small></label><button class="btn btn-primary" onclick="analyzeResume()">Analyze Resume ✦</button></section>
+<div id="resumeResult" class="content-grid two hidden"><section class="panel"><div class="panel-head"><div><h3>Detected skills</h3><p>Extracted from your uploaded resume</p></div><span class="pill success">92% confidence</span></div><div class="skill-tags large"><span>Python</span><span>SQL</span><span>Machine Learning</span><span>Pandas</span><span>NumPy</span><span>JavaScript</span><span>Git</span></div></section><section class="panel"><div class="panel-head"><div><h3>Skill gaps</h3><p>For your target AI/ML role</p></div></div><div class="gap-list"><div><b>TensorFlow</b><span class="danger">Missing</span></div><div><b>Deep Learning</b><span class="danger">Missing</span></div><div><b>Docker</b><span class="warn">Needs improvement</span></div><div><b>SQL</b><span class="success-text">Strong</span></div></div></section></div>
+</main><script src="../js/main.js"></script></body></html>

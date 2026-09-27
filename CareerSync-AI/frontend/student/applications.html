@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Applications | CareerSync AI</title><link rel="stylesheet" href="../css/style.css"></head><body class="app-page">
+<aside class="sidebar">
+  <a class="brand side-brand" href="../index.html"><span class="brand-mark">C</span><span>CareerSync <b>AI</b></span></a>
+  <div class="side-label">WORKSPACE</div>
+  <nav class="side-nav">
+    <a class="active" href="dashboard.html">⌂ <span>Dashboard</span></a>
+    <a href="profile.html">◉ <span>My Profile</span></a>
+    <a href="resume.html">✦ <span>Resume Analyzer</span></a>
+    <a href="jobs.html">⌕ <span>Find Jobs</span></a>
+    <a href="applications.html">▣ <span>Applications</span></a>
+    <a href="dsa.html">⌘ <span>DSA Practice</span></a>
+    <a href="roadmap.html">↗ <span>Learning Roadmap</span></a>
+  </nav>
+  <div class="side-bottom"><a href="../index.html">⚙ <span>Settings</span></a><a href="../login.html">↪ <span>Logout</span></a></div>
+</aside>
+<main class="app-main"><header class="app-header"><div><span class="eyebrow">STUDENT WORKSPACE</span><h1>Applications</h1></div><div class="header-actions"><button class="icon-btn">⌕</button><span class="notification">3</span><div class="user-chip"><span class="avatar">AK</span><div><b>Aashi Kumari</b><small>B.Tech CSE</small></div></div></div></header>
+<div class="stats-grid compact"><div class="stat-card"><span>Applied</span><strong>6</strong></div><div class="stat-card"><span>Shortlisted</span><strong>3</strong></div><div class="stat-card"><span>Interview</span><strong>2</strong></div><div class="stat-card"><span>Selected</span><strong>1</strong></div></div>
+<section class="panel"><div class="panel-head"><div><h3>Application tracker</h3><p>Keep your placement pipeline organized.</p></div><button class="btn btn-outline">Export CSV</button></div><div class="table-wrap"><table><thead><tr><th>Company</th><th>Role</th><th>Applied</th><th>Match</th><th>Status</th></tr></thead><tbody id="applicationsTable"></tbody></table></div></section>
+</main><script src="../js/main.js"></script><script>document.addEventListener('DOMContentLoaded',renderApplications);</script></body></html>
